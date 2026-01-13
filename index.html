@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Nadia & Gunawan Wedding</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Cover -->
+<section class="cover" id="cover">
+  <h3>The Wedding Of</h3>
+  <h1>Nadia & Gunawan</h1>
+  <p>Kepada Yth</p>
+  <h2 id="guest"></h2>
+  <button onclick="openInvite()">Buka Undangan</button>
+</section>
+
+<!-- Main Content -->
+<section class="content hidden" id="content">
+
+<div class="ornament"></div>
+
+<h1>Nadia Yudistira & Gunawan</h1>
+
+<p class="parents">
+Putri dari Bpk. Fulan & Ibu Fulanah<br>
+Putra dari Bpk. Fualn & Almh. Ibu Fulanah
+</p>
+
+<div class="event">
+  <h2>Resepsi Pernikahan</h2>
+  <p>Sabtu, 28 Maret 2026</p>
+  <p>11.00 - 20.30 WIB</p>
+  <p>Madrasah Al-Munawaroh</p>
+  <p>
+  Kp. Pahlawan RT.004/RW.017<br>
+  Cilendek Barat, Bogor Barat<br>
+  Kota Bogor
+  </p>
+  <a href="https://maps.app.goo.gl/9svYRrpfk5XZSLbcA" target="_blank">📍 Lihat Lokasi</a>
+</div>
+
+<div class="countdown" id="countdown"></div>
+
+<footer>
+Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir serta memberikan doa restu 🤍
+</footer>
+
+</section>
+
+<div class="gallery">
+  <h2>Our Moment</h2>
+
+  <div class="gallery-grid">
+  <img src="img/foto1.jpg" alt="Prewedding 1">
+  <img src="img/foto2.jpg" alt="Prewedding 2">
+  <img src="img/foto3.jpg" alt="Prewedding 3">
+  <img src="img/foto4.jpg" alt="Prewedding 4">
+</div>
+
+<div class="rsvp">
+  <h2>Konfirmasi Kehadiran</h2>
+  <a id="rsvpBtn" target="_blank">💬 Konfirmasi via WhatsApp</a>
+</div>
+
+<div class="guestbook">
+  <h2>Buku Tamu</h2>
+  <form id="guestForm">
+    <input type="text" id="name" placeholder="Nama" required>
+    <textarea id="message" placeholder="Ucapan & doa" required></textarea>
+    <button type="submit">Kirim Ucapan</button>
+  </form>
+
+  <div id="guestMessages"></div>
+</div>
+
+  <div class="countdown" id="countdown"></div>
+
+  <footer>Terima kasih atas doa & kehadirannya 🤍</footer>
+</section>
+
+<audio id="music" src="music.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
