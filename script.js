@@ -1,3 +1,13 @@
+// Ambil nama tamu dari URL
+const params = new URLSearchParams(window.location.search);
+const guestName = params.get('to');
+
+if (guestName) {
+  document.getElementById('guest').innerText = guestName;
+} else {
+  document.getElementById('guest').innerText = "Tamu Undangan";
+}
+
 function openInvite(){
   document.getElementById("cover").style.display = "none";
   document.getElementById("content").classList.remove("hidden");
