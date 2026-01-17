@@ -2,7 +2,7 @@ body{
   margin:0;
   background:linear-gradient(180deg,#0f1e2e,#1c3554);
   color:#fff;
-  font-family:'Poppins',sans-serif;
+  font-family:'Calibri',sans-serif;
   overflow-x:hidden;
 }
 
@@ -10,18 +10,19 @@ body{
   max-width:400px;
   margin:60px auto;
   padding:0 10px;
+  font-size:10px;
   text-align:center;
   line-height:1.8;
 }
 
 .story h2{
   font-family:'Playfair Display',serif;
-  margin-bottom:20px;
+  margin-bottom:10px;
 }
 
 h1{
-  font-family:'Great Vibes',cursive;
-  font-size:30px;
+  font-family:'Cinzel Decorative',cursive;
+  font-size:40px;
   margin:10px 0;
 }
 
@@ -31,6 +32,7 @@ h1{
   flex-direction:column;
   justify-content:center;
   align-items:center;
+  font-size:15px;
   background:
     linear-gradient(rgba(15,30,46,.85),rgba(15,30,46,.95)),
     url('https://images.unsplash.com/photo-1523438885200-e635ba2c371e') center/cover no-repeat;
@@ -57,7 +59,7 @@ h1{
   animation:fade 1.5s;
 }
 
-.parents{font-size:12px;line-height:1.8;margin:25px 0;}
+.parents{font-size:12px;line-height:1;margin:20px 0;}
 
 .event{
   background:rgba(255,255,255,.08);
@@ -194,7 +196,7 @@ footer{
 
 .guestbook input,
 .guestbook textarea {
-  width: 100%;
+  width: 90%;
   padding: 10px;
   margin-top: 10px;
   border-radius: 10px;
@@ -223,7 +225,6 @@ footer{
 .content{
   backdrop-filter:blur(1px);
 }
-
 
 body {
   margin: 0;
